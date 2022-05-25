@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.main-container {
+	display: flex;
+	margin: 0 auto;
+}
+
+.container {
+	width: 50%;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
